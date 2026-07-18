@@ -38,10 +38,9 @@ export default function BiographyModal({ player, onClose }) {
               ✕
             </button>
 
-            {/* 顶部：星级 + 队名 + ID */}
+            {/* 顶部：队名 + ID */}
             <div className="text-center">
-              <p className="text-gold-500">{'★'.repeat(player.homepage.stars)}</p>
-              <p className="mt-1 text-[10px] tracking-[0.4em] text-gold-700">
+              <p className="text-[10px] tracking-[0.4em] text-gold-700">
                 {players.team.name} · 军机密档
               </p>
               <h3 className="mt-2 font-calligraphy text-gilded text-4xl">{player.profile.name}</h3>
@@ -75,26 +74,7 @@ export default function BiographyModal({ player, onClose }) {
             </div>
 
             {/* 底部按钮 */}
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
-              <div className="clip-charm flex border border-gold-800/60 text-sm">
-                <a
-                  href="https://pvp.wanmei.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="hover-sheen px-4 py-2 text-gold-500 transition-colors hover:text-gold-300"
-                >
-                  外域探查 · 完美
-                </a>
-                <span className="border-l border-gold-800/60" />
-                <a
-                  href="https://www.5eplay.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="hover-sheen px-4 py-2 text-gold-500 transition-colors hover:text-gold-300"
-                >
-                  5E
-                </a>
-              </div>
+            <div className="mt-8 flex justify-center">
               <button
                 onClick={() => navigate(`/player/${player.id}`)}
                 className="clip-charm hover-sheen border border-gold-600/70 bg-gradient-to-b from-gold-700/30 to-xuantie-900 px-6 py-2 font-calligraphy text-lg text-gold-400 shadow-gold-glow transition-colors hover:text-gold-300"

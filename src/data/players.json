@@ -52,8 +52,7 @@
         "displayName": "黑狼Jonathan",
         "position": "先锋 · Entry",
         "shortDescription": "破阵先锋，突破手出身，先登陷阵，死战不退。",
-        "featured": true,
-        "stars": 5
+        "featured": true
       },
       "badges": [
         {
@@ -407,8 +406,7 @@
         "displayName": "他是个饶舌歌手",
         "position": "中军 · AWP",
         "shortDescription": "中军主狙，狙击手出身，一枪既出，必有所获。",
-        "featured": true,
-        "stars": 5
+        "featured": true
       },
       "badges": [
         {
@@ -756,8 +754,7 @@
         "displayName": "Darling",
         "position": "军师 · IGL",
         "shortDescription": "帷幄军师，指挥出身，运筹帷幄之中，决胜千里之外。",
-        "featured": true,
-        "stars": 4
+        "featured": true
       },
       "badges": [
         {
@@ -1105,8 +1102,7 @@
         "displayName": "影月",
         "position": "游骑 · Lurker",
         "shortDescription": "游骑劫营，自由人出身，其疾如风，侵掠如火。",
-        "featured": true,
-        "stars": 4
+        "featured": true
       },
       "badges": [
         {
@@ -1454,8 +1450,7 @@
         "displayName": "挂狗丁丁切一半-圣诞快",
         "position": "卫营 · Anchor",
         "shortDescription": "铁壁卫营，主区防守出身，不动如山，难知如阴。",
-        "featured": true,
-        "stars": 4
+        "featured": true
       },
       "badges": [
         {
@@ -1748,8 +1743,7 @@
         "displayName": "Jinglei",
         "position": "偏将 · 替补突破",
         "shortDescription": "偏将，候命听调，闻雷而动，一击即中。",
-        "featured": false,
-        "stars": 3
+        "featured": false
       },
       "badges": [
         {
@@ -2114,8 +2108,7 @@
         "displayName": "Changgong",
         "position": "游击 · 替补狙击",
         "shortDescription": "游击射手，候命听调，挽弓当挽强。",
-        "featured": false,
-        "stars": 3
+        "featured": false
       },
       "badges": [
         {
@@ -2495,8 +2488,7 @@
         "displayName": "Qingfeng",
         "position": "裨将 · 万能替补",
         "shortDescription": "裨将，候命听调，青锋所指，寸草不生。",
-        "featured": false,
-        "stars": 3
+        "featured": false
       },
       "badges": [
         {
@@ -2876,8 +2868,7 @@
         "displayName": "Moyu",
         "position": "军候 · 数据分析",
         "shortDescription": "军候，候命听调，料敌于先，谋定后动。",
-        "featured": false,
-        "stars": 3
+        "featured": false
       },
       "badges": [
         {
@@ -3272,8 +3263,7 @@
         "displayName": "Huya",
         "position": "新锐 · 青训",
         "shortDescription": "新锐先锋，候命听调，少年负壮气，奋烈自有时。",
-        "featured": false,
-        "stars": 2
+        "featured": false
       },
       "badges": [
         {

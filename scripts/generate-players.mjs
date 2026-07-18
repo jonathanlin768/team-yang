@@ -18,19 +18,19 @@ const rf = (min, max, digits = 2) => Number((rand() * (max - min) + min).toFixed
 const pick = (arr) => arr[Math.floor(rand() * arr.length)]
 
 const MAIN_PLAYERS = [
-  { id: 'player_01', name: '老杨', displayName: 'Yang', title: '破阵先锋', position: '先锋 · Entry', role: { primary: '突破手', secondary: ['步枪手'] }, motto: '先登陷阵，死战不退。', weapons: ['AK-47', 'AWP'], battleAge: '5年', joinDate: '2021-03', stars: 5, featured: true, level: 'gold' },
-  { id: 'player_02', name: '阿凯', displayName: 'Kai', title: '中军主狙', position: '中军 · AWP', role: { primary: '狙击手', secondary: ['补枪手'] }, motto: '一枪既出，必有所获。', weapons: ['AWP', 'Deagle'], battleAge: '4年', joinDate: '2022-01', stars: 5, featured: true, level: 'gold' },
-  { id: 'player_03', name: '北冥', displayName: 'Beiming', title: '帷幄军师', position: '军师 · IGL', role: { primary: '指挥', secondary: ['辅助位'] }, motto: '运筹帷幄之中，决胜千里之外。', weapons: ['M4A1-S', 'USP-S'], battleAge: '6年', joinDate: '2020-09', stars: 4, featured: true, level: 'gold' },
-  { id: 'player_04', name: '疾风', displayName: 'Jifeng', title: '游骑劫营', position: '游骑 · Lurker', role: { primary: '自由人', secondary: ['断后'] }, motto: '其疾如风，侵掠如火。', weapons: ['M4A4', 'MP9'], battleAge: '3年', joinDate: '2023-02', stars: 4, featured: true, level: 'gold' },
-  { id: 'player_05', name: '石头', displayName: 'Shitou', title: '铁壁卫营', position: '卫营 · Anchor', role: { primary: '主区防守', secondary: ['支援'] }, motto: '不动如山，难知如阴。', weapons: ['M4A1-S', 'Five-Seven'], battleAge: '4年', joinDate: '2022-06', stars: 4, featured: true, level: 'gold' },
+  { id: 'player_01', name: '老杨', displayName: 'Yang', title: '破阵先锋', position: '先锋 · Entry', role: { primary: '突破手', secondary: ['步枪手'] }, motto: '先登陷阵，死战不退。', weapons: ['AK-47', 'AWP'], battleAge: '5年', joinDate: '2021-03', featured: true, level: 'gold' },
+  { id: 'player_02', name: '阿凯', displayName: 'Kai', title: '中军主狙', position: '中军 · AWP', role: { primary: '狙击手', secondary: ['补枪手'] }, motto: '一枪既出，必有所获。', weapons: ['AWP', 'Deagle'], battleAge: '4年', joinDate: '2022-01', featured: true, level: 'gold' },
+  { id: 'player_03', name: '北冥', displayName: 'Beiming', title: '帷幄军师', position: '军师 · IGL', role: { primary: '指挥', secondary: ['辅助位'] }, motto: '运筹帷幄之中，决胜千里之外。', weapons: ['M4A1-S', 'USP-S'], battleAge: '6年', joinDate: '2020-09', featured: true, level: 'gold' },
+  { id: 'player_04', name: '疾风', displayName: 'Jifeng', title: '游骑劫营', position: '游骑 · Lurker', role: { primary: '自由人', secondary: ['断后'] }, motto: '其疾如风，侵掠如火。', weapons: ['M4A4', 'MP9'], battleAge: '3年', joinDate: '2023-02', featured: true, level: 'gold' },
+  { id: 'player_05', name: '石头', displayName: 'Shitou', title: '铁壁卫营', position: '卫营 · Anchor', role: { primary: '主区防守', secondary: ['支援'] }, motto: '不动如山，难知如阴。', weapons: ['M4A1-S', 'Five-Seven'], battleAge: '4年', joinDate: '2022-06', featured: true, level: 'gold' },
 ]
 
 const BENCH_PLAYERS = [
-  { id: 'player_06', name: '惊雷', displayName: 'Jinglei', title: '偏将', position: '偏将 · 替补突破', role: { primary: '替补突破手', secondary: ['步枪手'] }, motto: '闻雷而动，一击即中。', weapons: ['AK-47', 'Galil AR'], battleAge: '2年', joinDate: '2024-01', stars: 3, featured: false, level: 'bronze' },
-  { id: 'player_07', name: '长弓', displayName: 'Changgong', title: '游击射手', position: '游击 · 替补狙击', role: { primary: '替补狙击手', secondary: ['补枪'] }, motto: '挽弓当挽强。', weapons: ['AWP', 'SSG 08'], battleAge: '2年', joinDate: '2024-03', stars: 3, featured: false, level: 'bronze' },
-  { id: 'player_08', name: '青锋', displayName: 'Qingfeng', title: '裨将', position: '裨将 · 万能替补', role: { primary: '全能替补', secondary: ['道具位'] }, motto: '青锋所指，寸草不生。', weapons: ['M4A4', 'P90'], battleAge: '1年', joinDate: '2024-11', stars: 3, featured: false, level: 'bronze' },
-  { id: 'player_09', name: '墨羽', displayName: 'Moyu', title: '军候', position: '军候 · 数据分析', role: { primary: '数据分析', secondary: ['替补辅助'] }, motto: '料敌于先，谋定后动。', weapons: ['FAMAS', 'UMP-45'], battleAge: '3年', joinDate: '2023-08', stars: 3, featured: false, level: 'bronze' },
-  { id: 'player_10', name: '虎牙', displayName: 'Huya', title: '新锐先锋', position: '新锐 · 青训', role: { primary: '青训队员', secondary: ['突破手'] }, motto: '少年负壮气，奋烈自有时。', weapons: ['AK-47', 'MAC-10'], battleAge: '1年', joinDate: '2025-05', stars: 2, featured: false, level: 'bronze' },
+  { id: 'player_06', name: '惊雷', displayName: 'Jinglei', title: '偏将', position: '偏将 · 替补突破', role: { primary: '替补突破手', secondary: ['步枪手'] }, motto: '闻雷而动，一击即中。', weapons: ['AK-47', 'Galil AR'], battleAge: '2年', joinDate: '2024-01', featured: false, level: 'bronze' },
+  { id: 'player_07', name: '长弓', displayName: 'Changgong', title: '游击射手', position: '游击 · 替补狙击', role: { primary: '替补狙击手', secondary: ['补枪'] }, motto: '挽弓当挽强。', weapons: ['AWP', 'SSG 08'], battleAge: '2年', joinDate: '2024-03', featured: false, level: 'bronze' },
+  { id: 'player_08', name: '青锋', displayName: 'Qingfeng', title: '裨将', position: '裨将 · 万能替补', role: { primary: '全能替补', secondary: ['道具位'] }, motto: '青锋所指，寸草不生。', weapons: ['M4A4', 'P90'], battleAge: '1年', joinDate: '2024-11', featured: false, level: 'bronze' },
+  { id: 'player_09', name: '墨羽', displayName: 'Moyu', title: '军候', position: '军候 · 数据分析', role: { primary: '数据分析', secondary: ['替补辅助'] }, motto: '料敌于先，谋定后动。', weapons: ['FAMAS', 'UMP-45'], battleAge: '3年', joinDate: '2023-08', featured: false, level: 'bronze' },
+  { id: 'player_10', name: '虎牙', displayName: 'Huya', title: '新锐先锋', position: '新锐 · 青训', role: { primary: '青训队员', secondary: ['突破手'] }, motto: '少年负壮气，奋烈自有时。', weapons: ['AK-47', 'MAC-10'], battleAge: '1年', joinDate: '2025-05', featured: false, level: 'bronze' },
 ]
 
 const BADGE_POOL = {
@@ -145,7 +145,6 @@ function genPlayer(base, type) {
       position: base.position,
       shortDescription: type === 'main' ? `${base.title}，${base.role.primary}出身，${base.motto}` : `${base.title}，候命听调，${base.motto}`,
       featured: base.featured,
-      stars: base.stars,
     },
     badges: BADGE_POOL[base.id] || DEFAULT_BADGES(),
     platforms: {

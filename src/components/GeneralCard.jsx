@@ -14,6 +14,8 @@ export default function GeneralCard({ player, onClick }) {
   const best = Object.entries(platforms)
     .filter(([, p]) => p.enabled)
     .sort((a, b) => b[1].stats.rating - a[1].stats.rating)[0]
+  // 5E 平台给出的角色定位（如「清道夫」），缺失时回退为战龄档案
+  const fiveERole = platforms.fiveE?.enabled ? platforms.fiveE.stats.role : null
 
   return (
     <motion.button
@@ -50,11 +52,18 @@ export default function GeneralCard({ player, onClick }) {
         <p className="mt-2 line-clamp-2 text-xs leading-relaxed text-neutral-500">
           {homepage.shortDescription}
         </p>
-        {/* 星级 */}
-        <p className="mt-2 text-gold-500" aria-label={`${homepage.stars}星`}>
-          {'★'.repeat(homepage.stars)}
-          <span className="text-xuantie-600">{'★'.repeat(5 - homepage.stars)}</span>
-        </p>
+        {/* 5E 角色定位（游戏称号式烫金）；无 5E 数据时回退为战龄档案 */}
+        {fiveERole ? (
+          <p className="text-gilded mt-2 font-serifcn text-base font-black tracking-[0.3em] drop-shadow-[0_0_10px_rgba(212,175,55,0.45)]">
+            「{fiveERole}」
+          </p>
+        ) : (
+          <p className="mt-2 text-xs tracking-wider text-neutral-500">
+            战龄 {profile.battleAge}
+            <span className="mx-1 text-gold-700">·</span>
+            {profile.joinDate} 入伍
+          </p>
+        )}
       </div>
 
       {/* 底部：征战平台与最高战绩 */}

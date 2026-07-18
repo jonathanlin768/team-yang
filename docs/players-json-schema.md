@@ -80,7 +80,6 @@
 | `homepage.position` | string | 主页位置文案，如「先锋 · Entry」 | 卡片军职行 | 配置|
 | `homepage.shortDescription` | string | 一句话介绍 | 卡片描述 | 配置|
 | `homepage.featured` | bool | 是否主力推荐位 | 卡片排序/强调 | 配置|
-| `homepage.stars` | number | 卡片顶部星级（1–5） | 卡片 ★ 展示 | 这个星级从平均rating里读取，比如1.2以上5星，1.0~1.2 4星半等等|
 
 ### 3.4 badges[] —— 将印标签墙
 

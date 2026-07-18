@@ -32,7 +32,6 @@
 | 名将档案 | 常用兵器 | `profile.weapons` | 配置 |
 | 名将档案 | 座右铭 | `profile.motto` | 配置 |
 | 将印标签墙 | 徽章名/获得条件/金银铜成色 | `badges[]` | 人设配置（接口拿不到 1vX 评定标准） |
-| 卡片 | 星级 ★ | `homepage.stars` | 配置 |
 | 卡片 | 一句话介绍 | `homepage.shortDescription` | 配置 |
 | 战阵回放 | B 站视频 BV 号/标题 | `highlights[]` | 配置（当前是占位 BV，需换真实稿件） |
 | 荣誉墙 | 荣誉/生涯年表 | `career.honors` / `career.history` | 配置 |

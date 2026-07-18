@@ -31,8 +31,8 @@ export default {
         cinnabar: '#8E2B22',
       },
       fontFamily: {
-        // 书法标题字体：优先本机华文行楷（Windows 自带），macOS 行楷，再回退到 Google Fonts 毛笔体
-        calligraphy: ['"STXingkai"', '"华文行楷"', '"Xingkai SC"', '"Ma Shan Zheng"', '"Zhi Mang Xing"', '"Noto Serif SC"', 'serif'],
+        // 书法标题字体：统一使用 Google Fonts 毛笔体，再回退到衬线
+        calligraphy: ['"Ma Shan Zheng"', '"Zhi Mang Xing"', '"Noto Serif SC"', 'serif'],
         serifcn: ['"Noto Serif SC"', 'serif'],
         sans: ['"Noto Sans SC"', 'system-ui', 'sans-serif'],
       },
