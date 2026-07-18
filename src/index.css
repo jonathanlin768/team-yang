@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============ 全局基底 ============ */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-xuantie-900 text-neutral-200 font-sans antialiased;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(212, 175, 55, 0.05), transparent),
+    linear-gradient(180deg, #111111 0%, #1a1a1a 100%);
+  background-attachment: fixed;
+}
+
+/* 暗金滚动条 */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #111111;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #9c7c3c, #6e5626);
+  border: 2px solid #111111;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}
+
+::selection {
+  background: rgba(212, 175, 55, 0.35);
+  color: #fff;
+}
+
+@layer components {
+  /* ============ 纹理背景 ============ */
+  /* 水墨暗纹：径向墨渍 + 细网格 */
+  .bg-ink {
+    background-image:
+      radial-gradient(circle at 20% 30%, rgba(255, 255, 255, 0.03) 0%, transparent 25%),
+      radial-gradient(circle at 80% 70%, rgba(255, 255, 255, 0.025) 0%, transparent 22%),
+      radial-gradient(circle at 60% 15%, rgba(212, 175, 55, 0.03) 0%, transparent 18%),
+      repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.012) 0 2px, transparent 2px 14px);
+  }
+
+  /* 云纹（SVG data-URI 回旋纹） */
+  .bg-cloud {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cg fill='none' stroke='%23D4AF37' stroke-opacity='0.06' stroke-width='1.5'%3E%3Cpath d='M20 60a20 20 0 1 1 40 0 14 14 0 1 0-28 0 8 8 0 1 1 16 0'/%3E%3Cpath d='M70 30a14 14 0 1 1 28 0 9 9 0 1 0-18 0'/%3E%3Cpath d='M60 90a16 16 0 1 1 32 0 10 10 0 1 0-20 0'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: 120px 120px;
+  }
+
+  /* 金属拉丝：细密横向渐变条纹 */
+  .bg-brushed {
+    background-image: repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.03) 0 1px,
+      transparent 1px 3px,
+      rgba(0, 0, 0, 0.06) 3px 4px
+    );
+  }
+
+  /* 泛黄宣纸/地图线稿（列传页用） */
+  .bg-parchment {
+    background-image:
+      radial-gradient(ellipse 70% 60% at 50% 20%, rgba(197, 160, 89, 0.06), transparent 70%),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Cg fill='none' stroke='%23C5A059' stroke-opacity='0.05' stroke-width='1'%3E%3Cpath d='M0 50 Q50 30 100 55 T200 45'/%3E%3Cpath d='M0 120 Q60 100 120 130 T200 110'/%3E%3Cpath d='M30 0 Q40 80 20 160'/%3E%3Cpath d='M150 0 Q140 90 170 200'/%3E%3Ccircle cx='100' cy='90' r='30'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: auto, 200px 200px;
+  }
+
+  /* ============ 烫金文字 ============ */
+  .text-gilded {
+    background: linear-gradient(180deg, #f3e2a7 0%, #d4af37 38%, #9c7c3c 62%, #e8cf8a 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 30px rgba(212, 175, 55, 0.25);
+  }
+
+  /* ============ 切角工具类 ============ */
+  .clip-corner {
+    clip-path: polygon(14px 0, 100% 0, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0 100%, 0 14px);
+  }
+  .clip-corner-sm {
+    clip-path: polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px);
+  }
+  /* 令牌形（上下尖角） */
+  .clip-token {
+    clip-path: polygon(50% 0, 100% 12%, 100% 88%, 50% 100%, 0 88%, 0 12%);
+  }
+  /* 兵符按钮形 */
+  .clip-charm {
+    clip-path: polygon(12px 0, calc(100% - 12px) 0, 100% 50%, calc(100% - 12px) 100%, 12px 100%, 0 50%);
+  }
+
+  /* ============ 金色渐变边框 ============ */
+  .border-gold-grad {
+    border: 1px solid transparent;
+    background:
+      linear-gradient(#181818, #181818) padding-box,
+      linear-gradient(135deg, #6e5626, #d4af37 30%, #6e5626 55%, #c5a059 80%, #6e5626) border-box;
+  }
+
+  /* 军令状横线装饰 */
+  .rule-imperial {
+    @apply relative h-px w-full;
+    background: linear-gradient(90deg, transparent, #d4af37 20%, #d4af37 80%, transparent);
+  }
+  .rule-imperial::after {
+    content: '◆';
+    @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-gold-500 text-[10px] bg-xuantie-900 px-2;
+  }
+}
+
+/* ============ 动画 ============ */
+/* 战旗缓慢飘动 */
+@keyframes flag-sway {
+  0%, 100% { transform: skewY(-1.5deg) translateX(0); }
+  50% { transform: skewY(1.5deg) translateX(-6px); }
+}
+.animate-flag {
+  animation: flag-sway 7s ease-in-out infinite;
+  transform-origin: top left;
+}
+
+/* 金色尘埃上升 */
+@keyframes dust-rise {
+  0% { transform: translateY(0); opacity: 0; }
+  10% { opacity: 0.8; }
+  90% { opacity: 0.4; }
+  100% { transform: translateY(-62vh); opacity: 0; }
+}
+.animate-dust {
+  animation: dust-rise linear infinite;
+}
+
+/* 刀锋划过 */
+@keyframes blade-sweep {
+  0%, 88% { transform: translateX(-30vw) skewX(-25deg); opacity: 0; }
+  90% { opacity: 1; }
+  96% { opacity: 0.6; }
+  100% { transform: translateX(130vw) skewX(-25deg); opacity: 0; }
+}
+.animate-blade {
+  animation: blade-sweep 9s ease-in-out infinite;
+}
+
+/* 金色流光（按钮 hover） */
+@keyframes sheen {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.hover-sheen {
+  background-image: linear-gradient(110deg, transparent 30%, rgba(232, 207, 138, 0.35) 50%, transparent 70%);
+  background-size: 200% 100%;
+}
+.hover-sheen:hover {
+  animation: sheen 0.9s ease forwards;
+}
+
+/* 印章浮现 */
+@keyframes seal-pop {
+  0% { transform: scale(1.6) rotate(-8deg); opacity: 0; }
+  100% { transform: scale(1) rotate(-8deg); opacity: 1; }
+}
+.seal-appear {
+  animation: seal-pop 0.45s cubic-bezier(0.2, 1.4, 0.4, 1) forwards;
+}
