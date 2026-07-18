@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  // GitHub Pages 项目站点部署在 https://<user>.github.io/team-yang/ 下
-  base: '/team-yang/',
+  // 自定义域名直接指向根路径，base 改为 '/'
+  base: '/',
   plugins: [react()],
 })
