@@ -4,6 +4,8 @@ import SealStamp from './SealStamp.jsx'
 import players from '../data/players.json'
 
 const PLATFORM_LABELS = players.enums.platforms
+// 卡片底部战绩的平台简称：官匹 Rating / 完美 Rating / 5E Rating
+const PLATFORM_SHORT = { official: '官匹', wanmei: '完美', fiveE: '5E' }
 
 // 军令牌卡片（先锋五虎）
 export default function GeneralCard({ player, onClick }) {
@@ -22,7 +24,7 @@ export default function GeneralCard({ player, onClick }) {
     >
       {/* 顶部画像框：方形铜框 + 铆钉 */}
       <div className="clip-corner-sm relative h-56 w-full border-2 border-bronze-500/70">
-        <AvatarStamp name={profile.name} size="lg" />
+        <AvatarStamp name={profile.name} avatar={profile.avatar} size="lg" />
         {/* 铆钉 */}
         {['left-1 top-1', 'right-1 top-1', 'bottom-1 left-1', 'bottom-1 right-1'].map((pos) => (
           <span
@@ -71,7 +73,8 @@ export default function GeneralCard({ player, onClick }) {
         </div>
         <div className="mt-2 flex items-baseline justify-between text-xs text-neutral-400">
           <span>
-            最高 Rating <span className="text-base font-bold text-gold-400">{best[1].stats.rating}</span>
+            {PLATFORM_SHORT[best[0]]} Rating{' '}
+            <span className="text-base font-bold text-gold-400">{best[1].stats.rating}</span>
           </span>
           <span>
             ADR <span className="text-base font-bold text-gold-400">{best[1].stats.adr}</span>

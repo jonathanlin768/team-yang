@@ -8,7 +8,8 @@ import {
   Tooltip,
 } from 'recharts'
 
-// 将帅能力罗盘
+// 将帅能力罗盘：统一六维（统帅 Rating / 杀伤 ADR / 战功 RWS / 常胜 胜率 / 位列 段位 / 夺魁 MVP）
+// radar 条目结构：{ subject, value, fullMark, raw }；value 为 null 表示该平台无此数据
 export default function AbilityRadar({ radar, platformName }) {
   return (
     <div className="clip-corner border border-gold-800/40 bg-black/40 p-4">
@@ -30,9 +31,13 @@ export default function AbilityRadar({ radar, platformName }) {
               strokeWidth={2}
               fill="#D4AF37"
               fillOpacity={0.25}
+              connectNulls
             />
             <Tooltip
-              formatter={(value) => [`${value} / 150`, '战力']}
+              formatter={(value, _name, item) => [
+                value == null ? '暂无数据' : `${item.payload.raw}`,
+                item.payload.metric,
+              ]}
               contentStyle={{
                 background: '#111111',
                 border: '1px solid #6E5626',
@@ -45,6 +50,9 @@ export default function AbilityRadar({ radar, platformName }) {
           </RadarChart>
         </ResponsiveContainer>
       </div>
+      <p className="mt-1 text-center text-[11px] text-neutral-600">
+        悬停查看原始数值 · 缺数据的维度以虚位显示
+      </p>
     </div>
   )
 }

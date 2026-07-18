@@ -28,9 +28,9 @@
       "type": "main",
       "status": "active",
       "profile": {
-        "name": "老杨",
-        "avatar": "",
-        "steamId64": "7656119946507191",
+        "name": "黑狼",
+        "avatar": "https://avatars.fastly.steamstatic.com/fb9b7c84efdd1d06073bc6f1cd7dd230dbbedd06_full.jpg",
+        "steamId64": "76561198253603000",
         "role": {
           "primary": "突破手",
           "secondary": [
@@ -44,10 +44,12 @@
           "AK-47",
           "AWP"
         ],
-        "battleAge": "5年"
+        "battleAge": "5年",
+        "fiveEDomain": "15111866rusbyp",
+        "steamName": "黑狼Jonathan"
       },
       "homepage": {
-        "displayName": "Yang",
+        "displayName": "黑狼Jonathan",
         "position": "先锋 · Entry",
         "shortDescription": "破阵先锋，突破手出身，先登陷阵，死战不退。",
         "featured": true,
@@ -77,333 +79,264 @@
         "official": {
           "name": "官匹 CS2",
           "enabled": true,
-          "rank": "黄金新星",
+          "rank": "10886",
           "stats": {
-            "rating": 1.14,
-            "adr": 94.8,
-            "kast": "74.5%",
-            "entry": "14.8%",
-            "hs": "55.1%"
+            "rating": 0.98,
+            "adr": 76.85,
+            "rws": 9.94,
+            "kast": "68%",
+            "entry": "12.0%",
+            "hs": "46.8%",
+            "winRate": "48.0%",
+            "matches": 100,
+            "hours": 910,
+            "friendCode": "SCQW5-HRFG"
           },
           "radar": [
             {
               "subject": "统帅",
-              "value": 124,
-              "fullMark": 150
+              "metric": "Rating",
+              "value": 98,
+              "fullMark": 150,
+              "raw": 0.98
             },
             {
               "subject": "杀伤",
-              "value": 127,
-              "fullMark": 150
+              "metric": "ADR",
+              "value": 96,
+              "fullMark": 150,
+              "raw": 76.85
             },
             {
-              "subject": "存活",
-              "value": 63,
-              "fullMark": 150
+              "subject": "战功",
+              "metric": "RWS",
+              "value": 99,
+              "fullMark": 150,
+              "raw": 9.94
             },
             {
-              "subject": "破阵",
-              "value": 131,
-              "fullMark": 150
+              "subject": "常胜",
+              "metric": "胜率",
+              "value": 72,
+              "fullMark": 150,
+              "raw": "48.0%"
             },
             {
-              "subject": "神射",
-              "value": 123,
-              "fullMark": 150
+              "subject": "位列",
+              "metric": "段位",
+              "value": 54,
+              "fullMark": 150,
+              "raw": "10886 分"
+            },
+            {
+              "subject": "夺魁",
+              "metric": "MVP",
+              "value": null,
+              "fullMark": 150,
+              "raw": "——"
             }
           ],
-          "matches": [
-            {
-              "id": "m_1",
-              "date": "2026-06-28",
-              "map": "炼狱小镇",
-              "enemy": "玄武堂",
-              "result": "win",
-              "score": "13-8",
-              "kda": {
-                "kill": 27,
-                "death": 10,
-                "assist": 6
-              },
-              "rating": 1.07,
-              "mvp": true
-            },
-            {
-              "id": "m_2",
-              "date": "2026-06-22",
-              "map": "死亡游乐园",
-              "enemy": "江东水师",
-              "result": "win",
-              "score": "13-5",
-              "kda": {
-                "kill": 23,
-                "death": 14,
-                "assist": 7
-              },
-              "rating": 1.31,
-              "mvp": true
-            },
-            {
-              "id": "m_3",
-              "date": "2026-06-17",
-              "map": "核子危机",
-              "enemy": "江东水师",
-              "result": "win",
-              "score": "13-7",
-              "kda": {
-                "kill": 18,
-                "death": 18,
-                "assist": 9
-              },
-              "rating": 0.92,
-              "mvp": false
-            },
-            {
-              "id": "m_4",
-              "date": "2026-06-10",
-              "map": "殒命大厦",
-              "enemy": "江东水师",
-              "result": "win",
-              "score": "13-7",
-              "kda": {
-                "kill": 27,
-                "death": 17,
-                "assist": 7
-              },
-              "rating": 1.49,
-              "mvp": true
-            },
-            {
-              "id": "m_5",
-              "date": "2026-06-06",
-              "map": "炼狱小镇",
-              "enemy": "烈焰军",
-              "result": "lose",
-              "score": "6-13",
-              "kda": {
-                "kill": 15,
-                "death": 20,
-                "assist": 2
-              },
-              "rating": 1.06,
-              "mvp": false
-            }
-          ]
+          "matches": []
         },
         "wanmei": {
           "name": "完美世界",
           "enabled": true,
-          "rank": "A+",
+          "rank": "天梯 1590 分",
           "stats": {
-            "rating": 1.14,
-            "adr": 69.2,
-            "kast": "74%",
-            "entry": "15.5%",
-            "hs": "51.3%"
+            "rating": 0.9,
+            "adr": 68.83,
+            "rws": 8.88,
+            "winRate": "58.0%",
+            "entry": "14.0%",
+            "hs": "44.0%",
+            "mvpCount": 24,
+            "pvpScore": 1590,
+            "seasonId": "S24"
           },
           "radar": [
             {
               "subject": "统帅",
-              "value": 136,
-              "fullMark": 150
+              "metric": "Rating",
+              "value": 90,
+              "fullMark": 150,
+              "raw": 0.9
             },
             {
               "subject": "杀伤",
-              "value": 85,
-              "fullMark": 150
+              "metric": "ADR",
+              "value": 86,
+              "fullMark": 150,
+              "raw": 68.83
             },
             {
-              "subject": "存活",
-              "value": 123,
-              "fullMark": 150
+              "subject": "战功",
+              "metric": "RWS",
+              "value": 89,
+              "fullMark": 150,
+              "raw": 8.88
             },
             {
-              "subject": "破阵",
-              "value": 70,
-              "fullMark": 150
+              "subject": "常胜",
+              "metric": "胜率",
+              "value": 87,
+              "fullMark": 150,
+              "raw": "58.0%"
             },
             {
-              "subject": "神射",
-              "value": 113,
-              "fullMark": 150
+              "subject": "位列",
+              "metric": "段位",
+              "value": 80,
+              "fullMark": 150,
+              "raw": "1590 分"
+            },
+            {
+              "subject": "夺魁",
+              "metric": "MVP",
+              "value": 150,
+              "fullMark": 150,
+              "raw": "24 次"
             }
           ],
-          "matches": [
-            {
-              "id": "m_1",
-              "date": "2026-06-28",
-              "map": "核子危机",
-              "enemy": "江东水师",
-              "result": "win",
-              "score": "13-11",
-              "kda": {
-                "kill": 16,
-                "death": 20,
-                "assist": 8
-              },
-              "rating": 0.88,
-              "mvp": false
-            },
-            {
-              "id": "m_2",
-              "date": "2026-06-21",
-              "map": "炼狱小镇",
-              "enemy": "燕云十八骑",
-              "result": "lose",
-              "score": "5-13",
-              "kda": {
-                "kill": 18,
-                "death": 18,
-                "assist": 9
-              },
-              "rating": 1.38,
-              "mvp": false
-            },
-            {
-              "id": "m_3",
-              "date": "2026-06-15",
-              "map": "远古遗迹",
-              "enemy": "燕云十八骑",
-              "result": "win",
-              "score": "13-7",
-              "kda": {
-                "kill": 15,
-                "death": 19,
-                "assist": 6
-              },
-              "rating": 1.11,
-              "mvp": false
-            },
-            {
-              "id": "m_4",
-              "date": "2026-06-10",
-              "map": "远古遗迹",
-              "enemy": "燕云十八骑",
-              "result": "lose",
-              "score": "5-13",
-              "kda": {
-                "kill": 21,
-                "death": 8,
-                "assist": 6
-              },
-              "rating": 0.93,
-              "mvp": false
-            }
-          ]
+          "matches": []
         },
         "fiveE": {
           "name": "5E竞技",
           "enabled": true,
-          "rank": "B",
+          "rank": "ELO 1602",
           "stats": {
-            "rating": 1,
-            "adr": 88.5,
-            "kast": "80.1%",
-            "entry": "22.8%",
-            "hs": "56.1%"
+            "rating": 0.95,
+            "adr": 76.6,
+            "rws": 10.15,
+            "kpr": 0.68,
+            "winRate": "49.7%",
+            "elo": 1601.8,
+            "role": "清道夫",
+            "matchTotal": 157
           },
           "radar": [
             {
               "subject": "统帅",
-              "value": 139,
-              "fullMark": 150
+              "metric": "Rating",
+              "value": 95,
+              "fullMark": 150,
+              "raw": 0.95
             },
             {
               "subject": "杀伤",
-              "value": 135,
-              "fullMark": 150
+              "metric": "ADR",
+              "value": 96,
+              "fullMark": 150,
+              "raw": 76.6
             },
             {
-              "subject": "存活",
-              "value": 94,
-              "fullMark": 150
+              "subject": "战功",
+              "metric": "RWS",
+              "value": 102,
+              "fullMark": 150,
+              "raw": 10.15
             },
             {
-              "subject": "破阵",
-              "value": 140,
-              "fullMark": 150
+              "subject": "常胜",
+              "metric": "胜率",
+              "value": 75,
+              "fullMark": 150,
+              "raw": "49.7%"
             },
             {
-              "subject": "神射",
-              "value": 119,
-              "fullMark": 150
+              "subject": "位列",
+              "metric": "段位",
+              "value": 80,
+              "fullMark": 150,
+              "raw": "ELO 1602"
+            },
+            {
+              "subject": "夺魁",
+              "metric": "MVP",
+              "value": 0,
+              "fullMark": 150,
+              "raw": "——"
             }
           ],
           "matches": [
             {
-              "id": "m_1",
-              "date": "2026-06-28",
-              "map": "炼狱小镇",
-              "enemy": "燕云十八骑",
-              "result": "win",
-              "score": "13-8",
+              "id": "g161-n-20260704233010655931682",
+              "date": "2026-07-04",
+              "map": "炙热沙城2",
+              "enemy": "",
+              "result": "lose",
+              "score": "8-13",
               "kda": {
-                "kill": 22,
-                "death": 16,
-                "assist": 2
-              },
-              "rating": 1.18,
-              "mvp": true
-            },
-            {
-              "id": "m_2",
-              "date": "2026-06-23",
-              "map": "远古遗迹",
-              "enemy": "燕云十八骑",
-              "result": "win",
-              "score": "13-11",
-              "kda": {
-                "kill": 14,
-                "death": 18,
-                "assist": 8
-              },
-              "rating": 1.03,
-              "mvp": false
-            },
-            {
-              "id": "m_3",
-              "date": "2026-06-19",
-              "map": "阿努比斯",
-              "enemy": "寒鸦小队",
-              "result": "win",
-              "score": "13-8",
-              "kda": {
-                "kill": 23,
+                "kill": 13,
                 "death": 19,
-                "assist": 4
+                "assist": null
               },
-              "rating": 1.27,
-              "mvp": true
+              "rating": 0.93,
+              "mvp": false,
+              "eloChange": -66.4
             },
             {
-              "id": "m_4",
-              "date": "2026-06-16",
-              "map": "荒漠迷城",
-              "enemy": "玄武堂",
+              "id": "g161-n-20260704225119170086512",
+              "date": "2026-07-04",
+              "map": "炙热沙城2",
+              "enemy": "",
+              "result": "win",
+              "score": "13-8",
+              "kda": {
+                "kill": 12,
+                "death": 17,
+                "assist": null
+              },
+              "rating": 1.06,
+              "mvp": false,
+              "eloChange": 100.5
+            },
+            {
+              "id": "g161-n-20260704220003927879412",
+              "date": "2026-07-04",
+              "map": "炙热沙城2",
+              "enemy": "",
+              "result": "win",
+              "score": "13-10",
+              "kda": {
+                "kill": 15,
+                "death": 17,
+                "assist": null
+              },
+              "rating": 0.93,
+              "mvp": false,
+              "eloChange": 110.6
+            },
+            {
+              "id": "g161-n-20260625234105667799026",
+              "date": "2026-06-25",
+              "map": "炙热沙城2",
+              "enemy": "",
               "result": "lose",
               "score": "9-13",
               "kda": {
-                "kill": 19,
-                "death": 8,
-                "assist": 2
+                "kill": 14,
+                "death": 20,
+                "assist": null
               },
-              "rating": 1.47,
-              "mvp": false
+              "rating": 0.94,
+              "mvp": false,
+              "eloChange": -52.6
             },
             {
-              "id": "m_5",
-              "date": "2026-06-10",
-              "map": "阿努比斯",
-              "enemy": "江东水师",
+              "id": "g161-n-20260531160623846041613",
+              "date": "2026-05-31",
+              "map": "炙热沙城2",
+              "enemy": "",
               "result": "win",
-              "score": "13-4",
+              "score": "13-8",
               "kda": {
-                "kill": 21,
+                "kill": 15,
                 "death": 10,
-                "assist": 9
+                "assist": null
               },
-              "rating": 0.8,
-              "mvp": false
+              "rating": 1.16,
+              "mvp": false,
+              "eloChange": 38.8
             }
           ]
         }
@@ -450,9 +383,9 @@
       "type": "main",
       "status": "active",
       "profile": {
-        "name": "阿凯",
-        "avatar": "",
-        "steamId64": "7656119981845188",
+        "name": "泓哥",
+        "avatar": "https://avatars.fastly.steamstatic.com/f89869dc24a4ed4225e11c6f63d3913b468a75d5_full.jpg",
+        "steamId64": "76561198178979757",
         "role": {
           "primary": "狙击手",
           "secondary": [
@@ -466,10 +399,12 @@
           "AWP",
           "Deagle"
         ],
-        "battleAge": "4年"
+        "battleAge": "4年",
+        "fiveEDomain": "rushb_pfvo3e",
+        "steamName": "他是个饶舌歌手"
       },
       "homepage": {
-        "displayName": "Kai",
+        "displayName": "他是个饶舌歌手",
         "position": "中军 · AWP",
         "shortDescription": "中军主狙，狙击手出身，一枪既出，必有所获。",
         "featured": true,
@@ -493,303 +428,264 @@
         "official": {
           "name": "官匹 CS2",
           "enabled": true,
-          "rank": "无上之首席大师",
+          "rank": "4999",
           "stats": {
-            "rating": 1.24,
-            "adr": 69.2,
-            "kast": "78.9%",
-            "entry": "19.7%",
-            "hs": "45.2%"
+            "rating": 0.72,
+            "adr": 66.81,
+            "rws": 8.06,
+            "kast": "63%",
+            "entry": "19.0%",
+            "hs": "46.9%",
+            "winRate": "33.0%",
+            "matches": 100,
+            "hours": 518,
+            "friendCode": "SQ5H3-6BCE"
           },
           "radar": [
             {
               "subject": "统帅",
-              "value": 97,
-              "fullMark": 150
+              "metric": "Rating",
+              "value": 72,
+              "fullMark": 150,
+              "raw": 0.72
             },
             {
               "subject": "杀伤",
-              "value": 86,
-              "fullMark": 150
+              "metric": "ADR",
+              "value": 84,
+              "fullMark": 150,
+              "raw": 66.81
             },
             {
-              "subject": "存活",
-              "value": 65,
-              "fullMark": 150
+              "subject": "战功",
+              "metric": "RWS",
+              "value": 81,
+              "fullMark": 150,
+              "raw": 8.06
             },
             {
-              "subject": "破阵",
-              "value": 74,
-              "fullMark": 150
+              "subject": "常胜",
+              "metric": "胜率",
+              "value": 50,
+              "fullMark": 150,
+              "raw": "33.0%"
             },
             {
-              "subject": "神射",
-              "value": 124,
-              "fullMark": 150
+              "subject": "位列",
+              "metric": "段位",
+              "value": 25,
+              "fullMark": 150,
+              "raw": "4999 分"
+            },
+            {
+              "subject": "夺魁",
+              "metric": "MVP",
+              "value": null,
+              "fullMark": 150,
+              "raw": "——"
             }
           ],
-          "matches": [
-            {
-              "id": "m_1",
-              "date": "2026-06-28",
-              "map": "远古遗迹",
-              "enemy": "寒鸦小队",
-              "result": "win",
-              "score": "13-6",
-              "kda": {
-                "kill": 23,
-                "death": 19,
-                "assist": 4
-              },
-              "rating": 1.2,
-              "mvp": true
-            },
-            {
-              "id": "m_2",
-              "date": "2026-06-21",
-              "map": "死亡游乐园",
-              "enemy": "烈焰军",
-              "result": "draw",
-              "score": "12-12",
-              "kda": {
-                "kill": 21,
-                "death": 12,
-                "assist": 4
-              },
-              "rating": 0.94,
-              "mvp": false
-            },
-            {
-              "id": "m_3",
-              "date": "2026-06-15",
-              "map": "炼狱小镇",
-              "enemy": "烈焰军",
-              "result": "win",
-              "score": "13-8",
-              "kda": {
-                "kill": 25,
-                "death": 15,
-                "assist": 9
-              },
-              "rating": 1.12,
-              "mvp": true
-            },
-            {
-              "id": "m_4",
-              "date": "2026-06-10",
-              "map": "核子危机",
-              "enemy": "玄武堂",
-              "result": "win",
-              "score": "13-6",
-              "kda": {
-                "kill": 24,
-                "death": 12,
-                "assist": 7
-              },
-              "rating": 0.86,
-              "mvp": true
-            },
-            {
-              "id": "m_5",
-              "date": "2026-06-06",
-              "map": "核子危机",
-              "enemy": "燕云十八骑",
-              "result": "win",
-              "score": "13-4",
-              "kda": {
-                "kill": 22,
-                "death": 13,
-                "assist": 2
-              },
-              "rating": 1.17,
-              "mvp": true
-            }
-          ]
+          "matches": []
         },
         "wanmei": {
           "name": "完美世界",
           "enabled": true,
-          "rank": "A+",
+          "rank": "未定级",
           "stats": {
-            "rating": 1.09,
-            "adr": 81.5,
-            "kast": "69.5%",
-            "entry": "17.1%",
-            "hs": "46.8%"
+            "rating": 0.77,
+            "adr": 73.5,
+            "rws": 8.53,
+            "winRate": "50.0%",
+            "entry": "21.0%",
+            "hs": "46.0%",
+            "mvpCount": 2,
+            "pvpScore": 0,
+            "seasonId": "S24"
           },
           "radar": [
             {
               "subject": "统帅",
-              "value": 98,
-              "fullMark": 150
+              "metric": "Rating",
+              "value": 77,
+              "fullMark": 150,
+              "raw": 0.77
             },
             {
               "subject": "杀伤",
-              "value": 132,
-              "fullMark": 150
+              "metric": "ADR",
+              "value": 92,
+              "fullMark": 150,
+              "raw": 73.5
             },
             {
-              "subject": "存活",
-              "value": 120,
-              "fullMark": 150
-            },
-            {
-              "subject": "破阵",
-              "value": 98,
-              "fullMark": 150
-            },
-            {
-              "subject": "神射",
+              "subject": "战功",
+              "metric": "RWS",
               "value": 85,
-              "fullMark": 150
+              "fullMark": 150,
+              "raw": 8.53
+            },
+            {
+              "subject": "常胜",
+              "metric": "胜率",
+              "value": 75,
+              "fullMark": 150,
+              "raw": "50.0%"
+            },
+            {
+              "subject": "位列",
+              "metric": "段位",
+              "value": null,
+              "fullMark": 150,
+              "raw": "未定级"
+            },
+            {
+              "subject": "夺魁",
+              "metric": "MVP",
+              "value": 150,
+              "fullMark": 150,
+              "raw": "2 次"
             }
           ],
-          "matches": [
-            {
-              "id": "m_1",
-              "date": "2026-06-28",
-              "map": "炼狱小镇",
-              "enemy": "雷霆战队",
-              "result": "lose",
-              "score": "6-13",
-              "kda": {
-                "kill": 13,
-                "death": 10,
-                "assist": 9
-              },
-              "rating": 0.97,
-              "mvp": false
-            },
-            {
-              "id": "m_2",
-              "date": "2026-06-22",
-              "map": "荒漠迷城",
-              "enemy": "寒鸦小队",
-              "result": "win",
-              "score": "13-10",
-              "kda": {
-                "kill": 25,
-                "death": 10,
-                "assist": 7
-              },
-              "rating": 1.19,
-              "mvp": true
-            },
-            {
-              "id": "m_3",
-              "date": "2026-06-16",
-              "map": "荒漠迷城",
-              "enemy": "江东水师",
-              "result": "lose",
-              "score": "9-13",
-              "kda": {
-                "kill": 15,
-                "death": 14,
-                "assist": 6
-              },
-              "rating": 1.06,
-              "mvp": false
-            }
-          ]
+          "matches": []
         },
         "fiveE": {
           "name": "5E竞技",
           "enabled": true,
-          "rank": "S",
+          "rank": "未定级",
           "stats": {
-            "rating": 1,
-            "adr": 85.8,
-            "kast": "79.5%",
-            "entry": "21.6%",
-            "hs": "58.2%"
+            "rating": 0.76,
+            "adr": 66.91,
+            "rws": 7.8,
+            "kpr": 0.56,
+            "winRate": "45.3%",
+            "elo": 0,
+            "role": "爆头机器",
+            "matchTotal": 117
           },
           "radar": [
             {
               "subject": "统帅",
+              "metric": "Rating",
               "value": 76,
-              "fullMark": 150
+              "fullMark": 150,
+              "raw": 0.76
             },
             {
               "subject": "杀伤",
-              "value": 137,
-              "fullMark": 150
+              "metric": "ADR",
+              "value": 84,
+              "fullMark": 150,
+              "raw": 66.91
             },
             {
-              "subject": "存活",
-              "value": 109,
-              "fullMark": 150
+              "subject": "战功",
+              "metric": "RWS",
+              "value": 78,
+              "fullMark": 150,
+              "raw": 7.8
             },
             {
-              "subject": "破阵",
-              "value": 70,
-              "fullMark": 150
+              "subject": "常胜",
+              "metric": "胜率",
+              "value": 68,
+              "fullMark": 150,
+              "raw": "45.3%"
             },
             {
-              "subject": "神射",
-              "value": 125,
-              "fullMark": 150
+              "subject": "位列",
+              "metric": "段位",
+              "value": null,
+              "fullMark": 150,
+              "raw": "未定级"
+            },
+            {
+              "subject": "夺魁",
+              "metric": "MVP",
+              "value": 0,
+              "fullMark": 150,
+              "raw": "——"
             }
           ],
           "matches": [
             {
-              "id": "m_1",
-              "date": "2026-06-28",
-              "map": "殒命大厦",
-              "enemy": "江东水师",
-              "result": "win",
-              "score": "13-6",
+              "id": "g161-n-20260704233010655931682",
+              "date": "2026-07-04",
+              "map": "炙热沙城2",
+              "enemy": "",
+              "result": "lose",
+              "score": "8-13",
               "kda": {
-                "kill": 21,
-                "death": 13,
-                "assist": 5
+                "kill": 12,
+                "death": 17,
+                "assist": null
               },
-              "rating": 0.95,
-              "mvp": false
+              "rating": 0.89,
+              "mvp": false,
+              "eloChange": -89.7
             },
             {
-              "id": "m_2",
-              "date": "2026-06-24",
-              "map": "阿努比斯",
-              "enemy": "雷霆战队",
+              "id": "g161-n-20260704225119170086512",
+              "date": "2026-07-04",
+              "map": "炙热沙城2",
+              "enemy": "",
               "result": "win",
-              "score": "13-4",
+              "score": "13-8",
+              "kda": {
+                "kill": 12,
+                "death": 16,
+                "assist": null
+              },
+              "rating": 0.78,
+              "mvp": false,
+              "eloChange": 153.9
+            },
+            {
+              "id": "g161-n-20260508225327908298587",
+              "date": "2026-05-08",
+              "map": "荒漠迷城",
+              "enemy": "",
+              "result": "win",
+              "score": "13-9",
+              "kda": {
+                "kill": 9,
+                "death": 15,
+                "assist": null
+              },
+              "rating": 0.68,
+              "mvp": false,
+              "eloChange": 133
+            },
+            {
+              "id": "g161-n-20260503231140307524034",
+              "date": "2026-05-03",
+              "map": "炙热沙城2",
+              "enemy": "",
+              "result": "win",
+              "score": "13-1",
               "kda": {
                 "kill": 14,
-                "death": 10,
-                "assist": 4
+                "death": 6,
+                "assist": null
               },
-              "rating": 0.9,
-              "mvp": false
+              "rating": 1.63,
+              "mvp": false,
+              "eloChange": 222.8
             },
             {
-              "id": "m_3",
-              "date": "2026-06-20",
-              "map": "核子危机",
-              "enemy": "雷霆战队",
-              "result": "win",
-              "score": "13-6",
+              "id": "g161-n-20260410233415789875424",
+              "date": "2026-04-10",
+              "map": "炙热沙城2",
+              "enemy": "",
+              "result": "lose",
+              "score": "10-13",
               "kda": {
-                "kill": 14,
-                "death": 18,
-                "assist": 9
+                "kill": 10,
+                "death": 19,
+                "assist": null
               },
-              "rating": 1.02,
-              "mvp": false
-            },
-            {
-              "id": "m_4",
-              "date": "2026-06-13",
-              "map": "远古遗迹",
-              "enemy": "燕云十八骑",
-              "result": "win",
-              "score": "13-5",
-              "kda": {
-                "kill": 13,
-                "death": 20,
-                "assist": 4
-              },
-              "rating": 0.86,
-              "mvp": false
+              "rating": 0.63,
+              "mvp": false,
+              "eloChange": -77.4
             }
           ]
         }
@@ -836,9 +732,9 @@
       "type": "main",
       "status": "active",
       "profile": {
-        "name": "北冥",
-        "avatar": "",
-        "steamId64": "7656119832714900",
+        "name": "杨梅",
+        "avatar": "https://avatars.fastly.steamstatic.com/d96c49b0619bfc656446edb41fd8273e43cd0c9e_full.jpg",
+        "steamId64": "76561199180228024",
         "role": {
           "primary": "指挥",
           "secondary": [
@@ -852,10 +748,12 @@
           "M4A1-S",
           "USP-S"
         ],
-        "battleAge": "6年"
+        "battleAge": "6年",
+        "fiveEDomain": "16687236gj9lqr",
+        "steamName": "Darling"
       },
       "homepage": {
-        "displayName": "Beiming",
+        "displayName": "Darling",
         "position": "军师 · IGL",
         "shortDescription": "帷幄军师，指挥出身，运筹帷幄之中，决胜千里之外。",
         "featured": true,
@@ -879,303 +777,264 @@
         "official": {
           "name": "官匹 CS2",
           "enabled": true,
-          "rank": "全球精英",
+          "rank": "6548",
           "stats": {
-            "rating": 1.15,
-            "adr": 91.5,
-            "kast": "81.4%",
-            "entry": "25.6%",
-            "hs": "43.8%"
+            "rating": 1.41,
+            "adr": 106.79,
+            "rws": 13.9,
+            "kast": "76%",
+            "entry": "16.0%",
+            "hs": "40.2%",
+            "winRate": "53.0%",
+            "matches": 100,
+            "hours": 1184,
+            "friendCode": "SCU4Z-UZVA"
           },
           "radar": [
             {
               "subject": "统帅",
-              "value": 113,
-              "fullMark": 150
+              "metric": "Rating",
+              "value": 141,
+              "fullMark": 150,
+              "raw": 1.41
             },
             {
               "subject": "杀伤",
-              "value": 81,
-              "fullMark": 150
+              "metric": "ADR",
+              "value": 133,
+              "fullMark": 150,
+              "raw": 106.79
             },
             {
-              "subject": "存活",
-              "value": 77,
-              "fullMark": 150
+              "subject": "战功",
+              "metric": "RWS",
+              "value": 139,
+              "fullMark": 150,
+              "raw": 13.9
             },
             {
-              "subject": "破阵",
-              "value": 145,
-              "fullMark": 150
+              "subject": "常胜",
+              "metric": "胜率",
+              "value": 80,
+              "fullMark": 150,
+              "raw": "53.0%"
             },
             {
-              "subject": "神射",
-              "value": 141,
-              "fullMark": 150
+              "subject": "位列",
+              "metric": "段位",
+              "value": 33,
+              "fullMark": 150,
+              "raw": "6548 分"
+            },
+            {
+              "subject": "夺魁",
+              "metric": "MVP",
+              "value": null,
+              "fullMark": 150,
+              "raw": "——"
             }
           ],
-          "matches": [
-            {
-              "id": "m_1",
-              "date": "2026-06-28",
-              "map": "炼狱小镇",
-              "enemy": "寒鸦小队",
-              "result": "draw",
-              "score": "12-12",
-              "kda": {
-                "kill": 11,
-                "death": 19,
-                "assist": 3
-              },
-              "rating": 1.05,
-              "mvp": false
-            },
-            {
-              "id": "m_2",
-              "date": "2026-06-23",
-              "map": "阿努比斯",
-              "enemy": "雷霆战队",
-              "result": "win",
-              "score": "13-8",
-              "kda": {
-                "kill": 10,
-                "death": 17,
-                "assist": 2
-              },
-              "rating": 0.92,
-              "mvp": false
-            },
-            {
-              "id": "m_3",
-              "date": "2026-06-18",
-              "map": "殒命大厦",
-              "enemy": "江东水师",
-              "result": "win",
-              "score": "13-5",
-              "kda": {
-                "kill": 13,
-                "death": 8,
-                "assist": 6
-              },
-              "rating": 0.93,
-              "mvp": false
-            },
-            {
-              "id": "m_4",
-              "date": "2026-06-12",
-              "map": "核子危机",
-              "enemy": "寒鸦小队",
-              "result": "win",
-              "score": "13-9",
-              "kda": {
-                "kill": 28,
-                "death": 19,
-                "assist": 6
-              },
-              "rating": 1.39,
-              "mvp": true
-            }
-          ]
+          "matches": []
         },
         "wanmei": {
           "name": "完美世界",
           "enabled": true,
-          "rank": "S",
+          "rank": "天梯 1810 分",
           "stats": {
-            "rating": 1.12,
-            "adr": 68.4,
-            "kast": "72.6%",
-            "entry": "26.8%",
-            "hs": "55.9%"
+            "rating": 1.19,
+            "adr": 93.03,
+            "rws": 11.31,
+            "winRate": "45.0%",
+            "entry": "15.0%",
+            "hs": "46.0%",
+            "mvpCount": 185,
+            "pvpScore": 1810,
+            "seasonId": "S24"
           },
           "radar": [
             {
               "subject": "统帅",
-              "value": 127,
-              "fullMark": 150
+              "metric": "Rating",
+              "value": 119,
+              "fullMark": 150,
+              "raw": 1.19
             },
             {
               "subject": "杀伤",
-              "value": 142,
-              "fullMark": 150
+              "metric": "ADR",
+              "value": 116,
+              "fullMark": 150,
+              "raw": 93.03
             },
             {
-              "subject": "存活",
-              "value": 131,
-              "fullMark": 150
+              "subject": "战功",
+              "metric": "RWS",
+              "value": 113,
+              "fullMark": 150,
+              "raw": 11.31
             },
             {
-              "subject": "破阵",
-              "value": 80,
-              "fullMark": 150
+              "subject": "常胜",
+              "metric": "胜率",
+              "value": 68,
+              "fullMark": 150,
+              "raw": "45.0%"
             },
             {
-              "subject": "神射",
-              "value": 89,
-              "fullMark": 150
+              "subject": "位列",
+              "metric": "段位",
+              "value": 91,
+              "fullMark": 150,
+              "raw": "1810 分"
+            },
+            {
+              "subject": "夺魁",
+              "metric": "MVP",
+              "value": 150,
+              "fullMark": 150,
+              "raw": "185 次"
             }
           ],
-          "matches": [
-            {
-              "id": "m_1",
-              "date": "2026-06-28",
-              "map": "阿努比斯",
-              "enemy": "烈焰军",
-              "result": "win",
-              "score": "13-10",
-              "kda": {
-                "kill": 12,
-                "death": 9,
-                "assist": 3
-              },
-              "rating": 1.37,
-              "mvp": false
-            },
-            {
-              "id": "m_2",
-              "date": "2026-06-22",
-              "map": "死亡游乐园",
-              "enemy": "烈焰军",
-              "result": "draw",
-              "score": "12-12",
-              "kda": {
-                "kill": 18,
-                "death": 18,
-                "assist": 8
-              },
-              "rating": 1.47,
-              "mvp": false
-            },
-            {
-              "id": "m_3",
-              "date": "2026-06-17",
-              "map": "核子危机",
-              "enemy": "寒鸦小队",
-              "result": "win",
-              "score": "13-5",
-              "kda": {
-                "kill": 24,
-                "death": 19,
-                "assist": 9
-              },
-              "rating": 1.26,
-              "mvp": true
-            },
-            {
-              "id": "m_4",
-              "date": "2026-06-10",
-              "map": "荒漠迷城",
-              "enemy": "寒鸦小队",
-              "result": "lose",
-              "score": "9-13",
-              "kda": {
-                "kill": 24,
-                "death": 13,
-                "assist": 4
-              },
-              "rating": 1.46,
-              "mvp": true
-            },
-            {
-              "id": "m_5",
-              "date": "2026-06-06",
-              "map": "殒命大厦",
-              "enemy": "寒鸦小队",
-              "result": "win",
-              "score": "13-8",
-              "kda": {
-                "kill": 11,
-                "death": 9,
-                "assist": 7
-              },
-              "rating": 1.4,
-              "mvp": false
-            }
-          ]
+          "matches": []
         },
         "fiveE": {
           "name": "5E竞技",
           "enabled": true,
-          "rank": "A+",
+          "rank": "ELO 2068",
           "stats": {
-            "rating": 0.99,
-            "adr": 80.2,
-            "kast": "78.9%",
-            "entry": "25.3%",
-            "hs": "56.3%"
+            "rating": 1.19,
+            "adr": 94.5,
+            "rws": 12.02,
+            "kpr": 0.86,
+            "winRate": "45.6%",
+            "elo": 2067.95,
+            "role": "大局支配者",
+            "matchTotal": 281
           },
           "radar": [
             {
               "subject": "统帅",
-              "value": 87,
-              "fullMark": 150
+              "metric": "Rating",
+              "value": 119,
+              "fullMark": 150,
+              "raw": 1.19
             },
             {
               "subject": "杀伤",
-              "value": 113,
-              "fullMark": 150
+              "metric": "ADR",
+              "value": 118,
+              "fullMark": 150,
+              "raw": 94.5
             },
             {
-              "subject": "存活",
-              "value": 133,
-              "fullMark": 150
+              "subject": "战功",
+              "metric": "RWS",
+              "value": 120,
+              "fullMark": 150,
+              "raw": 12.02
             },
             {
-              "subject": "破阵",
-              "value": 72,
-              "fullMark": 150
+              "subject": "常胜",
+              "metric": "胜率",
+              "value": 68,
+              "fullMark": 150,
+              "raw": "45.6%"
             },
             {
-              "subject": "神射",
-              "value": 134,
-              "fullMark": 150
+              "subject": "位列",
+              "metric": "段位",
+              "value": 103,
+              "fullMark": 150,
+              "raw": "ELO 2068"
+            },
+            {
+              "subject": "夺魁",
+              "metric": "MVP",
+              "value": 0,
+              "fullMark": 150,
+              "raw": "——"
             }
           ],
           "matches": [
             {
-              "id": "m_1",
-              "date": "2026-06-28",
-              "map": "阿努比斯",
-              "enemy": "玄武堂",
+              "id": "g161-n-20260704233010655931682",
+              "date": "2026-07-04",
+              "map": "炙热沙城2",
+              "enemy": "",
               "result": "lose",
-              "score": "5-13",
+              "score": "8-13",
               "kda": {
-                "kill": 19,
-                "death": 17,
-                "assist": 6
+                "kill": 23,
+                "death": 14,
+                "assist": null
               },
-              "rating": 0.84,
-              "mvp": false
+              "rating": 1.56,
+              "mvp": false,
+              "eloChange": -2.4
             },
             {
-              "id": "m_2",
-              "date": "2026-06-21",
-              "map": "阿努比斯",
-              "enemy": "寒鸦小队",
-              "result": "lose",
-              "score": "6-13",
+              "id": "g161-n-20260704225119170086512",
+              "date": "2026-07-04",
+              "map": "炙热沙城2",
+              "enemy": "",
+              "result": "win",
+              "score": "13-8",
               "kda": {
-                "kill": 12,
-                "death": 11,
-                "assist": 2
-              },
-              "rating": 1.41,
-              "mvp": false
-            },
-            {
-              "id": "m_3",
-              "date": "2026-06-14",
-              "map": "死亡游乐园",
-              "enemy": "雷霆战队",
-              "result": "lose",
-              "score": "5-13",
-              "kda": {
-                "kill": 17,
+                "kill": 22,
                 "death": 12,
-                "assist": 6
+                "assist": null
               },
-              "rating": 1.13,
-              "mvp": false
+              "rating": 1.3,
+              "mvp": false,
+              "eloChange": 6.5
+            },
+            {
+              "id": "g161-n-20260704220003927879412",
+              "date": "2026-07-04",
+              "map": "炙热沙城2",
+              "enemy": "",
+              "result": "win",
+              "score": "13-10",
+              "kda": {
+                "kill": 16,
+                "death": 16,
+                "assist": null
+              },
+              "rating": 1.07,
+              "mvp": false,
+              "eloChange": 12
+            },
+            {
+              "id": "g161-n-20260625234105667799026",
+              "date": "2026-06-25",
+              "map": "炙热沙城2",
+              "enemy": "",
+              "result": "lose",
+              "score": "9-13",
+              "kda": {
+                "kill": 34,
+                "death": 16,
+                "assist": null
+              },
+              "rating": 2.16,
+              "mvp": false,
+              "eloChange": -2.3
+            },
+            {
+              "id": "g161-n-20260619150223042513100",
+              "date": "2026-06-19",
+              "map": "炙热沙城2",
+              "enemy": "",
+              "result": "lose",
+              "score": "10-13",
+              "kda": {
+                "kill": 31,
+                "death": 14,
+                "assist": null
+              },
+              "rating": 1.81,
+              "mvp": false,
+              "eloChange": 37.2
             }
           ]
         }
@@ -1222,9 +1081,9 @@
       "type": "main",
       "status": "active",
       "profile": {
-        "name": "疾风",
-        "avatar": "",
-        "steamId64": "7656119823403149",
+        "name": "升仔",
+        "avatar": "https://avatars.fastly.steamstatic.com/3d47c11fac7fae95444c3b8da1edafe2b8ed1d65_full.jpg",
+        "steamId64": "76561198840097603",
         "role": {
           "primary": "自由人",
           "secondary": [
@@ -1238,10 +1097,12 @@
           "M4A4",
           "MP9"
         ],
-        "battleAge": "3年"
+        "battleAge": "3年",
+        "fiveEDomain": "1977_najdt1",
+        "steamName": "影月"
       },
       "homepage": {
-        "displayName": "Jifeng",
+        "displayName": "影月",
         "position": "游骑 · Lurker",
         "shortDescription": "游骑劫营，自由人出身，其疾如风，侵掠如火。",
         "featured": true,
@@ -1265,303 +1126,264 @@
         "official": {
           "name": "官匹 CS2",
           "enabled": true,
-          "rank": "无上之首席大师",
+          "rank": "暂无数据",
           "stats": {
-            "rating": 1.02,
-            "adr": 80.9,
-            "kast": "79.4%",
-            "entry": "24.5%",
-            "hs": "38.1%"
+            "rating": 0.79,
+            "adr": 74.13,
+            "rws": 8.64,
+            "kast": "64%",
+            "entry": "19.0%",
+            "hs": "36.5%",
+            "winRate": "39.0%",
+            "matches": 100,
+            "hours": 309,
+            "friendCode": "A72FT-LQRA"
           },
           "radar": [
             {
               "subject": "统帅",
-              "value": 121,
-              "fullMark": 150
+              "metric": "Rating",
+              "value": 79,
+              "fullMark": 150,
+              "raw": 0.79
             },
             {
               "subject": "杀伤",
-              "value": 87,
-              "fullMark": 150
+              "metric": "ADR",
+              "value": 93,
+              "fullMark": 150,
+              "raw": 74.13
             },
             {
-              "subject": "存活",
-              "value": 125,
-              "fullMark": 150
+              "subject": "战功",
+              "metric": "RWS",
+              "value": 86,
+              "fullMark": 150,
+              "raw": 8.64
             },
             {
-              "subject": "破阵",
-              "value": 121,
-              "fullMark": 150
+              "subject": "常胜",
+              "metric": "胜率",
+              "value": 59,
+              "fullMark": 150,
+              "raw": "39.0%"
             },
             {
-              "subject": "神射",
-              "value": 112,
-              "fullMark": 150
+              "subject": "位列",
+              "metric": "段位",
+              "value": null,
+              "fullMark": 150,
+              "raw": "暂无"
+            },
+            {
+              "subject": "夺魁",
+              "metric": "MVP",
+              "value": null,
+              "fullMark": 150,
+              "raw": "——"
             }
           ],
-          "matches": [
-            {
-              "id": "m_1",
-              "date": "2026-06-28",
-              "map": "炼狱小镇",
-              "enemy": "寒鸦小队",
-              "result": "lose",
-              "score": "4-13",
-              "kda": {
-                "kill": 17,
-                "death": 12,
-                "assist": 5
-              },
-              "rating": 1.49,
-              "mvp": false
-            },
-            {
-              "id": "m_2",
-              "date": "2026-06-23",
-              "map": "远古遗迹",
-              "enemy": "玄武堂",
-              "result": "lose",
-              "score": "7-13",
-              "kda": {
-                "kill": 26,
-                "death": 20,
-                "assist": 3
-              },
-              "rating": 1.32,
-              "mvp": true
-            },
-            {
-              "id": "m_3",
-              "date": "2026-06-19",
-              "map": "荒漠迷城",
-              "enemy": "雷霆战队",
-              "result": "win",
-              "score": "13-6",
-              "kda": {
-                "kill": 11,
-                "death": 16,
-                "assist": 5
-              },
-              "rating": 1.32,
-              "mvp": false
-            },
-            {
-              "id": "m_4",
-              "date": "2026-06-16",
-              "map": "炼狱小镇",
-              "enemy": "寒鸦小队",
-              "result": "lose",
-              "score": "6-13",
-              "kda": {
-                "kill": 23,
-                "death": 15,
-                "assist": 6
-              },
-              "rating": 0.95,
-              "mvp": true
-            }
-          ]
+          "matches": []
         },
         "wanmei": {
           "name": "完美世界",
           "enabled": true,
-          "rank": "S+",
+          "rank": "天梯 1552 分",
           "stats": {
-            "rating": 1.35,
-            "adr": 78.7,
-            "kast": "70.6%",
-            "entry": "17.9%",
-            "hs": "45%"
+            "rating": 0.79,
+            "adr": 70.77,
+            "rws": 8.4,
+            "winRate": "41.0%",
+            "entry": "14.0%",
+            "hs": "40.0%",
+            "mvpCount": 40,
+            "pvpScore": 1552,
+            "seasonId": "S24"
           },
           "radar": [
             {
               "subject": "统帅",
-              "value": 115,
-              "fullMark": 150
+              "metric": "Rating",
+              "value": 79,
+              "fullMark": 150,
+              "raw": 0.79
             },
             {
               "subject": "杀伤",
-              "value": 137,
-              "fullMark": 150
+              "metric": "ADR",
+              "value": 88,
+              "fullMark": 150,
+              "raw": 70.77
             },
             {
-              "subject": "存活",
-              "value": 67,
-              "fullMark": 150
+              "subject": "战功",
+              "metric": "RWS",
+              "value": 84,
+              "fullMark": 150,
+              "raw": 8.4
             },
             {
-              "subject": "破阵",
-              "value": 91,
-              "fullMark": 150
+              "subject": "常胜",
+              "metric": "胜率",
+              "value": 61,
+              "fullMark": 150,
+              "raw": "41.0%"
             },
             {
-              "subject": "神射",
-              "value": 102,
-              "fullMark": 150
+              "subject": "位列",
+              "metric": "段位",
+              "value": 78,
+              "fullMark": 150,
+              "raw": "1552 分"
+            },
+            {
+              "subject": "夺魁",
+              "metric": "MVP",
+              "value": 150,
+              "fullMark": 150,
+              "raw": "40 次"
             }
           ],
-          "matches": [
-            {
-              "id": "m_1",
-              "date": "2026-06-28",
-              "map": "阿努比斯",
-              "enemy": "江东水师",
-              "result": "win",
-              "score": "13-6",
-              "kda": {
-                "kill": 13,
-                "death": 13,
-                "assist": 2
-              },
-              "rating": 0.9,
-              "mvp": false
-            },
-            {
-              "id": "m_2",
-              "date": "2026-06-24",
-              "map": "死亡游乐园",
-              "enemy": "寒鸦小队",
-              "result": "win",
-              "score": "13-5",
-              "kda": {
-                "kill": 22,
-                "death": 16,
-                "assist": 5
-              },
-              "rating": 1.16,
-              "mvp": true
-            },
-            {
-              "id": "m_3",
-              "date": "2026-06-19",
-              "map": "核子危机",
-              "enemy": "寒鸦小队",
-              "result": "win",
-              "score": "13-5",
-              "kda": {
-                "kill": 16,
-                "death": 18,
-                "assist": 6
-              },
-              "rating": 0.81,
-              "mvp": false
-            },
-            {
-              "id": "m_4",
-              "date": "2026-06-13",
-              "map": "炼狱小镇",
-              "enemy": "寒鸦小队",
-              "result": "win",
-              "score": "13-6",
-              "kda": {
-                "kill": 21,
-                "death": 9,
-                "assist": 2
-              },
-              "rating": 1.17,
-              "mvp": false
-            }
-          ]
+          "matches": []
         },
         "fiveE": {
           "name": "5E竞技",
           "enabled": true,
-          "rank": "A",
+          "rank": "未定级",
           "stats": {
-            "rating": 1.18,
-            "adr": 72.8,
-            "kast": "71.1%",
-            "entry": "16.3%",
-            "hs": "51.5%"
+            "rating": 0.9,
+            "adr": 80.43,
+            "rws": 10.27,
+            "kpr": 0.68,
+            "winRate": "42.9%",
+            "elo": 0,
+            "role": "防线撕裂者",
+            "matchTotal": 77
           },
           "radar": [
             {
               "subject": "统帅",
-              "value": 138,
-              "fullMark": 150
+              "metric": "Rating",
+              "value": 90,
+              "fullMark": 150,
+              "raw": 0.9
             },
             {
               "subject": "杀伤",
-              "value": 79,
-              "fullMark": 150
+              "metric": "ADR",
+              "value": 101,
+              "fullMark": 150,
+              "raw": 80.43
             },
             {
-              "subject": "存活",
-              "value": 84,
-              "fullMark": 150
+              "subject": "战功",
+              "metric": "RWS",
+              "value": 103,
+              "fullMark": 150,
+              "raw": 10.27
             },
             {
-              "subject": "破阵",
-              "value": 116,
-              "fullMark": 150
+              "subject": "常胜",
+              "metric": "胜率",
+              "value": 64,
+              "fullMark": 150,
+              "raw": "42.9%"
             },
             {
-              "subject": "神射",
-              "value": 81,
-              "fullMark": 150
+              "subject": "位列",
+              "metric": "段位",
+              "value": null,
+              "fullMark": 150,
+              "raw": "未定级"
+            },
+            {
+              "subject": "夺魁",
+              "metric": "MVP",
+              "value": 0,
+              "fullMark": 150,
+              "raw": "——"
             }
           ],
           "matches": [
             {
-              "id": "m_1",
-              "date": "2026-06-28",
-              "map": "死亡游乐园",
-              "enemy": "玄武堂",
-              "result": "win",
-              "score": "13-6",
-              "kda": {
-                "kill": 26,
-                "death": 16,
-                "assist": 3
-              },
-              "rating": 1.45,
-              "mvp": true
-            },
-            {
-              "id": "m_2",
-              "date": "2026-06-24",
-              "map": "死亡游乐园",
-              "enemy": "雷霆战队",
-              "result": "win",
-              "score": "13-10",
+              "id": "g161-n-20260619150223042513100",
+              "date": "2026-06-19",
+              "map": "炙热沙城2",
+              "enemy": "",
+              "result": "lose",
+              "score": "10-13",
               "kda": {
                 "kill": 12,
-                "death": 15,
-                "assist": 4
+                "death": 20,
+                "assist": null
               },
-              "rating": 0.87,
-              "mvp": false
+              "rating": 0.82,
+              "mvp": false,
+              "eloChange": -96.5
             },
             {
-              "id": "m_3",
-              "date": "2026-06-20",
-              "map": "阿努比斯",
-              "enemy": "雷霆战队",
+              "id": "g161-n-20260619144107362119197",
+              "date": "2026-06-19",
+              "map": "炙热沙城2",
+              "enemy": "",
               "result": "win",
-              "score": "13-7",
+              "score": "13-1",
               "kda": {
-                "kill": 10,
-                "death": 10,
-                "assist": 3
+                "kill": 13,
+                "death": 6,
+                "assist": null
               },
-              "rating": 1.3,
-              "mvp": false
+              "rating": 1.25,
+              "mvp": false,
+              "eloChange": 225.5
             },
             {
-              "id": "m_4",
-              "date": "2026-06-15",
-              "map": "荒漠迷城",
-              "enemy": "寒鸦小队",
-              "result": "win",
-              "score": "13-9",
+              "id": "g161-n-20260619140841477145381",
+              "date": "2026-06-19",
+              "map": "炙热沙城2",
+              "enemy": "",
+              "result": "lose",
+              "score": "7-13",
               "kda": {
-                "kill": 25,
+                "kill": 11,
                 "death": 16,
-                "assist": 2
+                "assist": null
               },
-              "rating": 0.91,
-              "mvp": true
+              "rating": 0.73,
+              "mvp": false,
+              "eloChange": -77.3
+            },
+            {
+              "id": "g161-n-20260619133437037063417",
+              "date": "2026-06-19",
+              "map": "荒漠迷城",
+              "enemy": "",
+              "result": "lose",
+              "score": "10-13",
+              "kda": {
+                "kill": 15,
+                "death": 18,
+                "assist": null
+              },
+              "rating": 1.01,
+              "mvp": false,
+              "eloChange": 52.1
+            },
+            {
+              "id": "g161-n-20260619125504536980072",
+              "date": "2026-06-19",
+              "map": "炙热沙城2",
+              "enemy": "",
+              "result": "lose",
+              "score": "10-13",
+              "kda": {
+                "kill": 15,
+                "death": 20,
+                "assist": null
+              },
+              "rating": 0.88,
+              "mvp": false,
+              "eloChange": -82.5
             }
           ]
         }
@@ -1608,9 +1430,9 @@
       "type": "main",
       "status": "active",
       "profile": {
-        "name": "石头",
-        "avatar": "",
-        "steamId64": "7656119969373154",
+        "name": "西柚",
+        "avatar": "https://avatars.fastly.steamstatic.com/b0353b8099887e1b401ef416a4c4cb28d29a8216_full.jpg",
+        "steamId64": "76561198938139168",
         "role": {
           "primary": "主区防守",
           "secondary": [
@@ -1624,10 +1446,12 @@
           "M4A1-S",
           "Five-Seven"
         ],
-        "battleAge": "4年"
+        "battleAge": "4年",
+        "fiveEDomain": "rainweic",
+        "steamName": "挂狗丁丁切一半-圣诞快"
       },
       "homepage": {
-        "displayName": "Shitou",
+        "displayName": "挂狗丁丁切一半-圣诞快",
         "position": "卫营 · Anchor",
         "shortDescription": "铁壁卫营，主区防守出身，不动如山，难知如阴。",
         "featured": true,
@@ -1651,303 +1475,211 @@
         "official": {
           "name": "官匹 CS2",
           "enabled": true,
-          "rank": "传奇之鹰",
+          "rank": "7",
           "stats": {
-            "rating": 1.03,
-            "adr": 91.8,
-            "kast": "79.1%",
-            "entry": "18.3%",
-            "hs": "47.8%"
+            "rating": 0.99,
+            "adr": 77.45,
+            "rws": 9.36,
+            "kast": "63%",
+            "entry": "11.0%",
+            "hs": "37.2%",
+            "winRate": "41.0%",
+            "matches": 100,
+            "hours": 1268,
+            "friendCode": "SEAP3-UJPJ"
           },
           "radar": [
             {
               "subject": "统帅",
-              "value": 117,
-              "fullMark": 150
+              "metric": "Rating",
+              "value": 99,
+              "fullMark": 150,
+              "raw": 0.99
             },
             {
               "subject": "杀伤",
-              "value": 84,
-              "fullMark": 150
+              "metric": "ADR",
+              "value": 97,
+              "fullMark": 150,
+              "raw": 77.45
             },
             {
-              "subject": "存活",
-              "value": 117,
-              "fullMark": 150
+              "subject": "战功",
+              "metric": "RWS",
+              "value": 94,
+              "fullMark": 150,
+              "raw": 9.36
             },
             {
-              "subject": "破阵",
-              "value": 121,
-              "fullMark": 150
+              "subject": "常胜",
+              "metric": "胜率",
+              "value": 61,
+              "fullMark": 150,
+              "raw": "41.0%"
             },
             {
-              "subject": "神射",
-              "value": 120,
-              "fullMark": 150
+              "subject": "位列",
+              "metric": "段位",
+              "value": 5,
+              "fullMark": 150,
+              "raw": "7 分"
+            },
+            {
+              "subject": "夺魁",
+              "metric": "MVP",
+              "value": null,
+              "fullMark": 150,
+              "raw": "——"
             }
           ],
-          "matches": [
-            {
-              "id": "m_1",
-              "date": "2026-06-28",
-              "map": "核子危机",
-              "enemy": "烈焰军",
-              "result": "win",
-              "score": "13-9",
-              "kda": {
-                "kill": 16,
-                "death": 20,
-                "assist": 7
-              },
-              "rating": 1.33,
-              "mvp": false
-            },
-            {
-              "id": "m_2",
-              "date": "2026-06-21",
-              "map": "核子危机",
-              "enemy": "雷霆战队",
-              "result": "win",
-              "score": "13-8",
-              "kda": {
-                "kill": 10,
-                "death": 19,
-                "assist": 4
-              },
-              "rating": 1.25,
-              "mvp": false
-            },
-            {
-              "id": "m_3",
-              "date": "2026-06-17",
-              "map": "殒命大厦",
-              "enemy": "玄武堂",
-              "result": "lose",
-              "score": "9-13",
-              "kda": {
-                "kill": 10,
-                "death": 15,
-                "assist": 5
-              },
-              "rating": 1.19,
-              "mvp": false
-            },
-            {
-              "id": "m_4",
-              "date": "2026-06-14",
-              "map": "核子危机",
-              "enemy": "燕云十八骑",
-              "result": "win",
-              "score": "13-8",
-              "kda": {
-                "kill": 18,
-                "death": 14,
-                "assist": 9
-              },
-              "rating": 1.26,
-              "mvp": false
-            },
-            {
-              "id": "m_5",
-              "date": "2026-06-11",
-              "map": "死亡游乐园",
-              "enemy": "江东水师",
-              "result": "win",
-              "score": "13-8",
-              "kda": {
-                "kill": 13,
-                "death": 18,
-                "assist": 9
-              },
-              "rating": 0.92,
-              "mvp": false
-            }
-          ]
+          "matches": []
         },
         "wanmei": {
           "name": "完美世界",
-          "enabled": true,
-          "rank": "S+",
-          "stats": {
-            "rating": 1.08,
-            "adr": 70.3,
-            "kast": "81.2%",
-            "entry": "18.4%",
-            "hs": "40.3%"
-          },
-          "radar": [
-            {
-              "subject": "统帅",
-              "value": 138,
-              "fullMark": 150
-            },
-            {
-              "subject": "杀伤",
-              "value": 113,
-              "fullMark": 150
-            },
-            {
-              "subject": "存活",
-              "value": 87,
-              "fullMark": 150
-            },
-            {
-              "subject": "破阵",
-              "value": 66,
-              "fullMark": 150
-            },
-            {
-              "subject": "神射",
-              "value": 131,
-              "fullMark": 150
-            }
-          ],
-          "matches": [
-            {
-              "id": "m_1",
-              "date": "2026-06-28",
-              "map": "荒漠迷城",
-              "enemy": "玄武堂",
-              "result": "win",
-              "score": "13-9",
-              "kda": {
-                "kill": 21,
-                "death": 10,
-                "assist": 7
-              },
-              "rating": 1.13,
-              "mvp": false
-            },
-            {
-              "id": "m_2",
-              "date": "2026-06-21",
-              "map": "阿努比斯",
-              "enemy": "燕云十八骑",
-              "result": "win",
-              "score": "13-10",
-              "kda": {
-                "kill": 20,
-                "death": 20,
-                "assist": 5
-              },
-              "rating": 1.45,
-              "mvp": false
-            },
-            {
-              "id": "m_3",
-              "date": "2026-06-17",
-              "map": "远古遗迹",
-              "enemy": "烈焰军",
-              "result": "win",
-              "score": "13-7",
-              "kda": {
-                "kill": 14,
-                "death": 19,
-                "assist": 2
-              },
-              "rating": 1.17,
-              "mvp": false
-            },
-            {
-              "id": "m_4",
-              "date": "2026-06-14",
-              "map": "殒命大厦",
-              "enemy": "江东水师",
-              "result": "win",
-              "score": "13-6",
-              "kda": {
-                "kill": 22,
-                "death": 11,
-                "assist": 4
-              },
-              "rating": 1.18,
-              "mvp": true
-            }
-          ]
+          "enabled": false,
+          "rank": "",
+          "stats": {},
+          "radar": [],
+          "matches": []
         },
         "fiveE": {
           "name": "5E竞技",
           "enabled": true,
-          "rank": "B",
+          "rank": "未定级",
           "stats": {
-            "rating": 1.21,
-            "adr": 90.5,
-            "kast": "76%",
-            "entry": "20.4%",
-            "hs": "46.8%"
+            "rating": 1.06,
+            "adr": 84.17,
+            "rws": 12.07,
+            "kpr": 0.73,
+            "winRate": "69.2%",
+            "elo": 0,
+            "role": "远程杀伤专家",
+            "matchTotal": 26
           },
           "radar": [
             {
               "subject": "统帅",
-              "value": 130,
-              "fullMark": 150
+              "metric": "Rating",
+              "value": 106,
+              "fullMark": 150,
+              "raw": 1.06
             },
             {
               "subject": "杀伤",
-              "value": 148,
-              "fullMark": 150
+              "metric": "ADR",
+              "value": 105,
+              "fullMark": 150,
+              "raw": 84.17
             },
             {
-              "subject": "存活",
-              "value": 138,
-              "fullMark": 150
+              "subject": "战功",
+              "metric": "RWS",
+              "value": 121,
+              "fullMark": 150,
+              "raw": 12.07
             },
             {
-              "subject": "破阵",
-              "value": 72,
-              "fullMark": 150
+              "subject": "常胜",
+              "metric": "胜率",
+              "value": 104,
+              "fullMark": 150,
+              "raw": "69.2%"
             },
             {
-              "subject": "神射",
-              "value": 89,
-              "fullMark": 150
+              "subject": "位列",
+              "metric": "段位",
+              "value": null,
+              "fullMark": 150,
+              "raw": "未定级"
+            },
+            {
+              "subject": "夺魁",
+              "metric": "MVP",
+              "value": 0,
+              "fullMark": 150,
+              "raw": "——"
             }
           ],
           "matches": [
             {
-              "id": "m_1",
-              "date": "2026-06-28",
-              "map": "荒漠迷城",
-              "enemy": "烈焰军",
+              "id": "g161-n-20260410233415789875424",
+              "date": "2026-04-10",
+              "map": "炙热沙城2",
+              "enemy": "",
               "result": "lose",
-              "score": "8-13",
+              "score": "10-13",
               "kda": {
-                "kill": 10,
-                "death": 19,
-                "assist": 9
+                "kill": 18,
+                "death": 18,
+                "assist": null
               },
-              "rating": 1.17,
-              "mvp": false
+              "rating": 1.13,
+              "mvp": false,
+              "eloChange": 25.8
             },
             {
-              "id": "m_2",
-              "date": "2026-06-22",
-              "map": "死亡游乐园",
-              "enemy": "烈焰军",
-              "result": "win",
-              "score": "13-5",
-              "kda": {
-                "kill": 20,
-                "death": 20,
-                "assist": 2
-              },
-              "rating": 1.04,
-              "mvp": false
-            },
-            {
-              "id": "m_3",
-              "date": "2026-06-19",
-              "map": "阿努比斯",
-              "enemy": "烈焰军",
+              "id": "g161-n-20260410225509836835301",
+              "date": "2026-04-10",
+              "map": "荒漠迷城",
+              "enemy": "",
               "result": "win",
               "score": "13-9",
               "kda": {
-                "kill": 15,
-                "death": 19,
-                "assist": 6
+                "kill": 16,
+                "death": 14,
+                "assist": null
               },
-              "rating": 1.44,
-              "mvp": false
+              "rating": 1.02,
+              "mvp": false,
+              "eloChange": 67.5
+            },
+            {
+              "id": "g161-20250607193153899401692",
+              "date": "2025-06-07",
+              "map": "炙热沙城2",
+              "enemy": "",
+              "result": "win",
+              "score": "13-8",
+              "kda": {
+                "kill": 23,
+                "death": 14,
+                "assist": null
+              },
+              "rating": 1.42,
+              "mvp": false,
+              "eloChange": 129.3
+            },
+            {
+              "id": "g161-b-20250607184805435646225",
+              "date": "2025-06-07",
+              "map": "阿努比斯",
+              "enemy": "",
+              "result": "lose",
+              "score": "11-13",
+              "kda": {
+                "kill": 15,
+                "death": 18,
+                "assist": null
+              },
+              "rating": 0.9,
+              "mvp": false,
+              "eloChange": -98.3
+            },
+            {
+              "id": "g161-20250607181917714450755",
+              "date": "2025-06-07",
+              "map": "炙热沙城2",
+              "enemy": "",
+              "result": "win",
+              "score": "13-6",
+              "kda": {
+                "kill": 15,
+                "death": 10,
+                "assist": null
+              },
+              "rating": 1.14,
+              "mvp": false,
+              "eloChange": 101.6
             }
           ]
         }

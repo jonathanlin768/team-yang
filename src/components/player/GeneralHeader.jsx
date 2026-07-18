@@ -25,7 +25,7 @@ export default function GeneralHeader({ player }) {
       {/* 武将画像框 */}
       <div className="group relative mx-auto w-64 shrink-0 md:mx-0">
         <div className="clip-corner relative h-72 border-2 border-bronze-500/80 bg-brushed">
-          <AvatarStamp name={profile.name} size="xl" />
+          <AvatarStamp name={profile.name} avatar={profile.avatar} size="xl" />
           {/* 铆钉 */}
           {['left-1.5 top-1.5', 'right-1.5 top-1.5', 'bottom-1.5 left-1.5', 'bottom-1.5 right-1.5'].map(
             (pos) => (

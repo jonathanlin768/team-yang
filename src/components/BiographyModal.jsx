@@ -53,7 +53,7 @@ export default function BiographyModal({ player, onClose }) {
             <div className="mt-6 flex flex-col gap-6 md:flex-row">
               {/* 左侧画像 */}
               <div className="clip-corner-sm relative mx-auto h-48 w-40 shrink-0 border-2 border-bronze-500/70">
-                <AvatarStamp name={player.profile.name} size="lg" />
+                <AvatarStamp name={player.profile.name} avatar={player.profile.avatar} size="lg" />
                 <SealStamp text="将" className="absolute -bottom-2 -right-2" />
               </div>
 

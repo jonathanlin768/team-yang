@@ -15,7 +15,7 @@ export default function BenchCard({ player }) {
         {/* 正面：青铜令牌 */}
         <div className="clip-corner absolute inset-0 flex flex-col items-center border border-bronze-500/60 bg-gradient-to-b from-xuantie-800 to-xuantie-950 bg-brushed p-4 [backface-visibility:hidden]">
           <div className="clip-corner-sm h-28 w-28 border border-bronze-500/70">
-            <AvatarStamp name={profile.name} size="md" />
+            <AvatarStamp name={profile.name} avatar={profile.avatar} size="md" />
           </div>
           <p className="mt-3 font-calligraphy text-2xl text-bronze-400">{profile.name}</p>
           <p className="mt-1 text-[10px] tracking-[0.2em] text-neutral-500">{homepage.displayName}</p>
